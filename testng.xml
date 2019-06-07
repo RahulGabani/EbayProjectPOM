@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+</listeners>
+
+  <test name="Test">
+  
+    <classes>
+      <class name="com.qa.ebay.testcases.SignInPageTest"/>
+      <class name="com.qa.ebay.testcases.HomePageTest"/>
+      <class name="com.qa.ebay.testcases.RegistrationTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
